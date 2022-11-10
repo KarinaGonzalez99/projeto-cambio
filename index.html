@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Casa de Câmbio</title>
+    <link rel="stylesheet" href="./src/index.css">
+    <script src="src/api.js" defer></script>
+    <script src="src/main.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Casa de Câmbio</h1>
+    </header>
+    <main>
+        <label for="">Digite a moeda</label>
+        <input type="text" id='currency-input' placeholder="Ex: BRL">
+        <button id='search-button'>Pesquisar</button>
+        <section id="result">
+            <h2 id='base' class="title-base"></h2>
+            <ul id="currency-list"></ul>
+        </section>
+    </main>
+</body>
+
+</html>
